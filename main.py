@@ -18,8 +18,9 @@ def fetch_and_decode_pgp_keys(username):
             email_matches = email_pattern.findall(decoded_pgp_key)
             valid_emails = [email for email in email_matches if '@' in email and re.match(r'^[\w\.-]+@[\w\.-]+$', email)]
             if valid_emails:
-                for email in valid_emails:
-                    print(f"Email for {username}: {email}")
+                with open("valid.txt", "a") as valid_file:
+                    for email in valid_emails:
+                        valid_file.write(f"{username}:{email}\n")
             else:
                 print(f"No valid email found for {username}.")
         else:
