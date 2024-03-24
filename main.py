@@ -1,5 +1,5 @@
 from fetch import fetch_pgp_keys
-from decode import decode_pgp_keys
+from functions.decode import decode_pgp_keys
 from extract import extract_emails
 from write import write_to_file
 
