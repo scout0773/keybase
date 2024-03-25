@@ -5,3 +5,10 @@ do:do@keybase.io
 at:at@keybase.io
 us:us@keybase.io
 Mr:matt@rennernz.com
+to:to@keybase.io
+to:to@keybase.io
+it:it@keybase.io
+do:do@keybase.io
+at:at@keybase.io
+us:us@keybase.io
+Mr:matt@rennernz.com
